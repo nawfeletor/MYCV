@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .info {
+            margin-bottom: 10px;
+        }
+
+        .info strong {
+            color: #4caf50;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background-color: #4caf50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .skills {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>NAWFAL IDBOUJMAA</h1>
+            <p>Étudiant | Email: idboujmaanawfel@gmail.com | Téléphone: +212 775-216761</p>
+            <div class="profile-picture">
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Objectif</h2>
+            <p>Étudiant motivé et dévoué, recherchant un stage pour appliquer et développer mes compétences dans un environnement professionnel.</p>
+        </div>
+
+        <div class="section">
+            <h2>Éducation</h2>
+            <div class="info">
+                <strong>Baccalauréat</strong> en Sciences Physiques
+                <p>Obtenu en 2023</p>
+            </div>
+            <div class="info">
+                <strong>Deuxième année</strong> de Licence en Génie Industriel et Logistique Hospitalière
+                <p>Suptech Santé | 2023 - Présent</p>
+            </div>
+            <div class="info">
+                <strong>Formation FJIJ</strong>
+                <p>Organisée par EFE Maroc | 2025</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Expériences</h2>
+            <div class="info">
+                <strong>Technicien en réparation</strong> chez <strong>Je Répare</strong>
+                <p>Réparation d'ordinateurs et de téléphones, résolution de problèmes informatiques.</p>
+            </div>
+            <div class="info">
+                <strong>Agent d'accueil</strong> dans un petit hôtel près d'Essaouira
+                <p>Service client et gestion des besoins des clients.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Compétences</h2>
+            <div class="skills">
+                <span>Pensée Critique</span>
+                <span>Apprenant rapide</span>
+                <span>Communication</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Langues</h2>
+            <div class="skills">
+                <span>Anglais</span>
+                <span>Arabe</span>
+                <span>Français</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 NAWFAL IDBOUJMAA. Tous droits réservés.</p>
+        </div>
+    </div>
+</body>
+</html>
